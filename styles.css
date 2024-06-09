@@ -5,7 +5,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Figtree', sans-serif;
     background: url('background.jpg') no-repeat center center fixed;
     background-size: cover;
     background-color: #000; /* Fallback color for background */
@@ -52,4 +52,23 @@ th, td {
 
 th {
     background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black background */
+}
+
+.footer {
+    margin-top: 20px;
+    color: #fff; /* White text color */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #fff; /* White link color */
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
