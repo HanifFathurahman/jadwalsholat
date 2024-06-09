@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Sholat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Real Time Jadwal Sholat</h1>
+    <div class="schedule-container">
+        <div id="location"></div>
+        <table id="prayer-times">
+            <thead>
+                <tr>
+                    <th>Sholat</th>
+                    <th>Waktu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Subuh</td>
+                    <td id="fajr"></td>
+                </tr>
+                <tr>
+                    <td>Dzuhur</td>
+                    <td id="dhuhr"></td>
+                </tr>
+                <tr>
+                    <td>Ashar</td>
+                    <td id="asr"></td>
+                </tr>
+                <tr>
+                    <td>Maghrib</td>
+                    <td id="maghrib"></td>
+                </tr>
+                <tr>
+                    <td>Isya</td>
+                    <td id="isha"></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

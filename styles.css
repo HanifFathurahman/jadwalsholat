@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #000; /* Fallback color for background */
+}
+
+.title {
+    color: #1e90ff; /* DodgerBlue color */
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.schedule-container {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: #1e90ff; /* DodgerBlue text color */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+#location {
+    margin-bottom: 10px;
+    background-color: rgba(30, 144, 255, 0.5); /* Semi-transparent DodgerBlue background */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(30, 144, 255, 0.5); /* Semi-transparent DodgerBlue background */
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #1e90ff; /* DodgerBlue border color */
+}
+
+th {
+    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black background */
+}
